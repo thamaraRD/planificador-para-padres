@@ -1,0 +1,22 @@
+.card1 {
+    background-color: #c4d6f1;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        input {
+        margin: 3px;
+        }
+        .errors {
+        color: red;
+        font-size: 13px;
+        }
+    
+    }
+}
